@@ -190,7 +190,7 @@ export default class Embed {
     container.appendChild(preloader);
 
     caption.contentEditable = (!this.readOnly).toString();
-    caption.dataset.placeholder = this.api.i18n.t('Enter a caption');
+    caption.dataset.placeholder = this.api.i18n.t('Введите заголовок');
     caption.innerHTML = this.data.caption || '';
 
     template.innerHTML = html;
